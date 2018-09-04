@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/config/applicationhost.config
+/HelvarButtonPanels/bin
+/HelvarButtonPanels/images/7_button_thumbnail.pdn
+/HelvarButtonPanels/images/5_button_thumbnail.pdn
+/HelvarButtonPanels/images/4_button_thumbnail.pdn
+/HelvarButtonPanels/images/2_button_thumbnail.pdn
+/HelvarButtonPanels/images/10_button_thumbnail.pdn
+/HelvarButtonPanels/obj
+*.pdf
+/HelvarButtonPanels/properties/PublishProfiles

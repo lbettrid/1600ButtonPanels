@@ -1,0 +1,170 @@
+
+a:focus 
+{
+	outline: none;
+}
+
+form
+{
+	margin: 0;
+    padding: 0;
+}
+
+.helvarBrand
+{
+	height: 46px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAAAoCAMAAAAR447jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURQAAAL0bM74eNr4fN74gN74hOL8jOr8lPMAmPMAmPcAnPsAoP8EpQMEqQcIsQsMwRsMyR8MzSMQ1S8U2S8U3TMU4TcU5TsY9Ucc+Usc/U8hCVslFWclGWstLXstNX8xPYsxRZM1TZc5Xac9aa89abNBcbtBeb9FhctFictJjc9JkdNJlddJmdtNnd9Nod9Rre9RsfNVufdVvftZzgdd1g9h4hth6iNl7idl8itl+i9p/jNqBjtqCj9uCkNuEkdyFktyGk9yHlNyIld2MmN6Nmd6Pmt+Pm9+QnOCUn+GXouGYo+KapOKcpuOdqOSirOSjreSkruWmr+WnsOaoseaps+ertOivuOmzu+m0vOq2veq3vuq3v+u5weu7wuy+xe3Bx+3CyO7Eyu7Ey+7GzO/Hze/Izu/Jz/DK0PHP1PLR1vLS1/LT2PPV2vPW2vPX2/Ta3vTb3/Xd4PXe4fbh5Pfi5ffl6Pjm6fnp6/nq7Prs7vrt7/ru8Pvx8/vy8/vz9Pz09fz19v33+P34+P76+/77/P78/f/+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEq6RK8AAAEAdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wBT9wclAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGnRFWHRTb2Z0d2FyZQBQYWludC5ORVQgdjMuNS4xMUfzQjcAAALFSURBVFhH7ZbnVxNBFMWNGogFkAMWwEYRFQuxoagoReyFJgZE0QiirlHUEEFpETfzZ4/3vp2wcQ2H5GzMp9xz2Hff3Zn9wcwWtugiqwQsuErAgqsELLg8wLdQ2PiH8EPGZyocj8dfGJ+/PEAF9RofhbeMz1THBnluygLsM75owB7jiwYs+pL6AVY2HCgzdgPlBjw+Nm8vfeivkMYA71iW9UwCfQ92VOvQ3QTnxy466SjSlrqRRKrD6R3lAgxNM4ZW5YkxwGNMqhnoVbguXT/PhJoJMbXgXqdwyBcY4EyjE+jTS7qAep0DW2BSlfoKBziaYbw+bTOgNTwk4i/MC99iGL09uIyyiB1KA++jxjhpBGYStVMt9ja3z6BTbWgd4FzM3gyY4jIY8cI/US+jVn2HueYC6zigFmYJ9SyqDtfwOIn2JaoAL2hd08Q0rSzATOHCjSizcvIS3LQL1B9hurVuRlkJyAgRJ/xCJfDfV+DmwB6UYTl5CC6ZAeSmYU25ogMyAAoGg3vRq3IH2GViV1mAY+2OZuFx4UfMXAVc4M7fcLWyoofZH4ms36eqygH+tX2iLEDPXTrEzFXQBerncN1c0W/s+nk6LR/AAZQFPMNGWzOArXCxYTOlCVXZiXhcnv58gJ6vBZ+K9S2iXKDcwEn87IGPoE7thqmCyQvo+VqcREmYSESgPH/4RnO8Um/oP8OcotnPyMeSlq2hDjIojzxlOY9+ZTudrud4pc7Rv4eRxZG99AGUTVSJgQdjK0pF0Dewn49OcMwn+uQ2Wg6zBzuvTjDyBdwxx9SoFQGvhLccx3TSyd+tD0qalh+gro4xppZPs9/Hd5wD3GXDNdJpfYMp9JWHXIG88fH6Ez2Bx1eOahtP2Gr1XS/eH1TZzVeWNSX2sWVFxUBHx38o+0tfBf6ri1c638Mz5pQrD/D/qwQsuErAAkvrP4KqJhFWv5jIAAAAAElFTkSuQmCC');
+    background-color: #c3132d;
+    border-color: #a51026;
+    background-repeat: no-repeat;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td
+{
+	background-color: #f0f0f0;
+}
+
+.table-hover tbody tr:hover > td
+{
+	background-color: #dddddd;
+}
+
+.table-striped tbody > tr:nth-child(odd) > th,
+.table-hover tbody tr:hover > th
+{
+	background-color: Transparent;
+}
+
+/* **************************************************************** */
+/* **************************************************************** */
+
+.customerInfo
+{
+	padding: 10px;
+}
+
+/* **************************************************************** */
+/* **************************************************************** */
+
+.panelStyles div
+{
+	display: inline-block;
+}
+
+.panelStyles div h4
+{
+	text-align: center;
+}
+
+.panelStyles img
+{
+	margin: 0 5px 10px 5px;
+	cursor: pointer;
+}
+
+.Thumbnails img
+{
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btnPlaceHolder
+{
+	position: absolute;
+	width: 71px;
+	height: 27px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAbAQMAAAAUMgDQAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABZJREFUeF7twDEBAAAAQDD9U3uFMGICAQ4AAbjL82AAAAAASUVORK5CYII=');
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-moz-transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	transition: border 0.5s;
+}
+
+.btnPlaceHolder:hover
+{
+	border: 1px solid rgba(0, 0, 0, 1.0);
+}
+
+/* **************************************************************** */
+/* **************************************************************** */
+
+.ButtonPanel
+{
+    margin: 0;
+    width: 323px;
+    min-width: 323px;
+    max-width: 323px;
+
+    height: 323px;
+    min-height: 323px;
+    max-height: 323px;
+}
+
+.customButtonPanel
+{
+    margin: 0 0 20px 0;
+}
+
+.ButtonPanelInner
+{
+    position: absolute;
+            
+    width: 323px;
+    min-width: 323px;
+    max-width: 323px;
+
+    height: 323px;
+    min-height: 323px;
+    max-height: 323px;
+}
+
+.sizedTextBox
+{
+    width: 54px;
+    font-family: Arial;
+    font-size: 8pt;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    color: white;
+	text-align: left;
+}
+
+.droppable-highlight
+{
+	border: 1px dashed white;
+}
+
+.droppable-hover
+{
+	border: 1px solid green;
+}
+
+/* **************************************************************** */
+/* **************************************************************** */
+
+.defaultLabels, .defaultIcons
+{
+	/*
+    height: 323px;
+    overflow-y: auto;
+    overflow-x: hidden;
+	*/
+}
+
+.defaultLabels table td
+{
+    width: 115px;
+}
+
+.defaultIcons table td
+{
+	width: 60px;
+}
+
+.defaultLabels span, .defaultIcons img
+{
+    cursor: pointer;
+}

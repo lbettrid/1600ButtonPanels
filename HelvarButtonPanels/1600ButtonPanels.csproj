@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B411ED3B-DF47-47D8-A7D0-89ACBF8FBD93}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HelvarButtonPanels</RootNamespace>
+    <AssemblyName>HelvarButtonPanels</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.32.4334.0\lib\net20\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.32.4334.0\lib\net20\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.32.4334.0\lib\net20\MigraDoc.RtfRendering.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.32.4334.0\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.32.4334.0\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddLabelOrIcon.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\fuelux.css" />
+    <Content Include="css\fuelux.min.css" />
+    <Content Include="css\jquery-ui-1.10.4.custom.min.css" />
+    <Content Include="fonts\fuelux.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ie8.aspx" />
+    <Content Include="images\ab_10_button_thumbnail.png" />
+    <Content Include="images\ab_1to1.png" />
+    <Content Include="images\ab_2_button_thumbnail.png" />
+    <Content Include="images\ab_4_button_thumbnail.png" />
+    <Content Include="images\ab_5_button_thumbnail.png" />
+    <Content Include="images\ab_7_button_thumbnail.png" />
+    <Content Include="images\ab_thumbnail.png" />
+    <Content Include="images\bn_10_button_thumbnail.png" />
+    <Content Include="images\bn_1to1.png" />
+    <Content Include="images\bn_2_button_thumbnail.png" />
+    <Content Include="images\bn_4_button_thumbnail.png" />
+    <Content Include="images\bn_5_button_thumbnail.png" />
+    <Content Include="images\bn_7_button_thumbnail.png" />
+    <Content Include="images\bn_thumbnail.png" />
+    <Content Include="images\icons\eight.png" />
+    <Content Include="images\icons\five.png" />
+    <Content Include="images\icons\four.png" />
+    <Content Include="images\icons\nine.png" />
+    <Content Include="images\icons\one.png" />
+    <Content Include="images\icons\seven.png" />
+    <Content Include="images\icons\six.png" />
+    <Content Include="images\icons\three.png" />
+    <Content Include="images\icons\two.png" />
+    <Content Include="images\ms_10_button_thumbnail.png" />
+    <Content Include="images\ms_1to1.png" />
+    <Content Include="images\ms_2_button_thumbnail.png" />
+    <Content Include="images\ms_4_button_thumbnail.png" />
+    <Content Include="images\ms_5_button_thumbnail.png" />
+    <Content Include="images\ms_7_button_thumbnail.png" />
+    <Content Include="images\ms_thumbnail.png" />
+    <Content Include="images\pb_10_button_thumbnail.png" />
+    <Content Include="images\pb_1to1.png" />
+    <Content Include="images\pb_2_button_thumbnail.png" />
+    <Content Include="images\pb_4_button_thumbnail.png" />
+    <Content Include="images\pb_5_button_thumbnail.png" />
+    <Content Include="images\pb_7_button_thumbnail.png" />
+    <Content Include="images\pb_thumbnail.png" />
+    <Content Include="images\button_left.png" />
+    <Content Include="images\button_right.png" />
+    <Content Include="images\helvar.png" />
+    <Content Include="images\helvarPrint.png" />
+    <Content Include="images\icons\aBlank.png" />
+    <Content Include="images\icons\arrowDown.png" />
+    <Content Include="images\icons\arrowUp.png" />
+    <Content Include="images\icons\barA.png" />
+    <Content Include="images\icons\barB.png" />
+    <Content Include="images\icons\bell.png" />
+    <Content Include="images\icons\blindsClosed.png" />
+    <Content Include="images\icons\blindsOpen.png" />
+    <Content Include="images\icons\book.png" />
+    <Content Include="images\icons\cinema.png" />
+    <Content Include="images\icons\circleEmptyLarge.png" />
+    <Content Include="images\icons\circleEmptyLines.png" />
+    <Content Include="images\icons\circleEmptyMaxLines.png" />
+    <Content Include="images\icons\circleEmptyMoreLines.png" />
+    <Content Include="images\icons\circleEmptySmall.png" />
+    <Content Include="images\icons\circleFilled.png" />
+    <Content Include="images\icons\circleFilledLines.png" />
+    <Content Include="images\icons\circleFilledMaxLines.png" />
+    <Content Include="images\icons\circleFilledMoreLines.png" />
+    <Content Include="images\icons\curtainsClosed.png" />
+    <Content Include="images\icons\curtainsOpen.png" />
+    <Content Include="images\icons\games.png" />
+    <Content Include="images\icons\hangingLampEmpty.png" />
+    <Content Include="images\icons\hangingLampFilled.png" />
+    <Content Include="images\icons\houseBlack.png" />
+    <Content Include="images\icons\houseEmpty.png" />
+    <Content Include="images\icons\houseFilled.png" />
+    <Content Include="images\icons\lampEmpty.png" />
+    <Content Include="images\icons\lampEmptyLines.png" />
+    <Content Include="images\icons\lampEmptyMaxLines.png" />
+    <Content Include="images\icons\lampEmptyMoreLines.png" />
+    <Content Include="images\icons\lampFilled.png" />
+    <Content Include="images\icons\lampFilledLines.png" />
+    <Content Include="images\icons\lampFilledMaxLines.png" />
+    <Content Include="images\icons\lampFilledMoreLines.png" />
+    <Content Include="images\icons\levelDown.png" />
+    <Content Include="images\icons\levelUp.png" />
+    <Content Include="images\icons\line.png" />
+    <Content Include="images\icons\moonEmpty.png" />
+    <Content Include="images\icons\moonFilled.png" />
+    <Content Include="images\icons\mopBucket.png" />
+    <Content Include="images\icons\music.png" />
+    <Content Include="images\icons\onOff.png" />
+    <Content Include="images\icons\snowFlake.png" />
+    <Content Include="images\icons\spectacles.png" />
+    <Content Include="images\icons\standingLampEmpty.png" />
+    <Content Include="images\icons\standingLampFilled.png" />
+    <Content Include="images\icons\tv.png" />
+    <Content Include="images\icons\window.png" />
+    <Content Include="images\pn_10_button_thumbnail.png" />
+    <Content Include="images\pn_1to1.png" />
+    <Content Include="images\pn_2_button_thumbnail.png" />
+    <Content Include="images\pn_4_button_thumbnail.png" />
+    <Content Include="images\pn_5_button_thumbnail.png" />
+    <Content Include="images\pn_7_button_thumbnail.png" />
+    <Content Include="images\pn_thumbnail.png" />
+    <Content Include="images\ss_10_button_thumbnail.png" />
+    <Content Include="images\ss_1to1.png" />
+    <Content Include="images\ss_2_button_thumbnail.png" />
+    <Content Include="images\ss_4_button_thumbnail.png" />
+    <Content Include="images\ss_5_button_thumbnail.png" />
+    <Content Include="images\ss_7_button_thumbnail.png" />
+    <Content Include="images\ss_thumbnail.png" />
+    <Content Include="images\wh_10_button_thumbnail.png" />
+    <Content Include="images\wh_1to1.png" />
+    <Content Include="images\wh_2_button_thumbnail.png" />
+    <Content Include="images\wh_4_button_thumbnail.png" />
+    <Content Include="images\wh_5_button_thumbnail.png" />
+    <Content Include="images\wh_7_button_thumbnail.png" />
+    <Content Include="images\wh_thumbnail.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\fuelux.js" />
+    <Content Include="js\fuelux.min.js" />
+    <None Include="js\jquery-1.10.2.intellisense.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="js\modernizr-2.6.2.js" />
+    <Content Include="js\respond.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\underscore-min.js" />
+    <None Include="js\_references.js" />
+    <Content Include="labels.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="packages.config" />
+    <Content Include="fonts\cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" />
+    <Content Include="fonts\k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff" />
+    <Content Include="fonts\PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff" />
+    <Content Include="fonts\xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\fuelux.eot" />
+    <Content Include="fonts\fuelux.ttf" />
+    <Content Include="fonts\fuelux.woff" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\fuelux.css.map" />
+    <Content Include="js\jquery-1.10.2.min.map" />
+    <None Include="Properties\PublishProfiles\helukfs.pubxml" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="styles.css" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddLabelOrIcon.aspx.cs">
+      <DependentUpon>AddLabelOrIcon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddLabelOrIcon.aspx.designer.cs">
+      <DependentUpon>AddLabelOrIcon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ie8.aspx.cs">
+      <DependentUpon>ie8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ie8.aspx.designer.cs">
+      <DependentUpon>ie8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49716</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49716/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
